@@ -1,0 +1,55 @@
+Script started on 2022-08-20 12:56:52+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="161" LINES="45"]
+]0;root@DESKTOP-PHL17VF: /mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/todo-app/todo-backendroot@DESKTOP-PHL17VF:/mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/todo-app/todo-backend# exitcho "lol"[6Pxitdocker exec -it todo-backend_mongo_1 bash
+root@77c0f6ce24a6:/#
+[Kroot@77c0f6ce24a6:/# exitmongo -u root -p example
+MongoDB shell version v5.0.11
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b66ba2fe-db66-4648-96f7-44fa02fd51b1") }
+MongoDB server version: 5.0.11
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting:
+        2022-08-20T09:40:52.766+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2022-08-20T09:40:53.039+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> [3G[Jdb.todos.find({})[20G[3G[Jdb.books.insertOne({ text: 'Increase the number of tools in my toolbelt', done: false  });[93G[3G[Jdb.todos.find({})[20G[3G[J[3G[3G[Jdb.todos.find({})[20G[3G[Jdb.books.insertOne({ text: 'Increase the number of tools in my toolbelt', done: false  });[93G[3G[Jdb.todos.find({})[20G[3G[Juse the_database[19G[3G[Juse the_database[19G
+switched to db the_database
+> [3G[Juse the_database[19G[3G[Jdb.todos.find({})[20G[3G[Jdb.books.insertOne({ text: 'Increase the number of tools in my toolbelt', done: false  });[93G[3G[Jdb.todos.find({})[20G[3G[Jdb.books.insertOne({ text: 'Increase the number of tools in my toolbelt', done: false  });[93G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6300ac23efffb31778d4924a"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6300ac23efffb31778d4924b"), "text" : "Learn about containers", "done" : false }
+> db.todos.insertOne({ [3G[Jdb.todos.insertOne({ [24G
+... text: 'Increase the number of tools in my toolbelt', done: false [5G[Jtext: 'Increase the number of tools in my toolbelt', done: false [70G
+... });[5G[J});[8G
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("6300affa1f2fe5d8e3e4e374")
+}
+> [3G[Jdb.todos.insertOne({ text: 'Increase the number of tools in my toolbelt', done: false  });[93G[3G[Jdb.todos.find({})[20G[3G[Jdb.todos.find({})[20G
+{ "_id" : ObjectId("6300ac23efffb31778d4924a"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6300ac23efffb31778d4924b"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6300affa1f2fe5d8e3e4e374"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+> exit[3G[Jexit[7G
+bye
+root@77c0f6ce24a6:/# exit
+exit
+]0;root@DESKTOP-PHL17VF: /mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/todo-app/todo-backendroot@DESKTOP-PHL17VF:/mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/todo-app/todo-backend# exit
+exit
+
+Script done on 2022-08-20 12:57:29+03:00 [COMMAND_EXIT_CODE="0"]

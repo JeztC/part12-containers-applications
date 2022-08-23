@@ -1,0 +1,9 @@
+FROM node:16
+WORKDIR /usr/src/app
+COPY --chown=node:node . .
+COPY . .
+RUN npm ci --only=production
+ENV DEBUG=hello-node:*
+USER node
+CMD npm start
+CMD DEBUG=hello-node:* npm start

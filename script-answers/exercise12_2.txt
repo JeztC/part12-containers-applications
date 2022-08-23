@@ -1,0 +1,14 @@
+Script started on 2022-08-23 12:06:28+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="30"]
+]0;root@DESKTOP-PHL17VF: /mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/hello-worldroot@DESKTOP-PHL17VF:/mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/hello-world# docker container run -it ubuntu bash
+[?2004h]0;root@33ae0a33763b: /root@33ae0a33763b:/#
+[K]0;root@33ae0a33763b: /root@33ae0a33763b:/# mkdir /usr/src/app
+[?2004l
+[?2004h]0;root@33ae0a33763b: /root@33ae0a33763b:/# touch /usr/src/app/index.js
+[?2004l
+[?2004h]0;root@33ae0a33763b: /root@33ae0a33763b:/# [Kexit
+[?2004l
+exit
+]0;root@DESKTOP-PHL17VF: /mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/hello-worldroot@DESKTOP-PHL17VF:/mnt/c/Users/Jesse/WebstormProjects/part12-containers-applications/hello-world# exit
+exit
+
+Script done on 2022-08-23 12:06:41+03:00 [COMMAND_EXIT_CODE="0"]
